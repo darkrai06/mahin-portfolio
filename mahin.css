@@ -1,0 +1,100 @@
+.open-sans-text {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 226px;
+    margin-right: 230px;
+  }
+  nav  ul{
+    display: flex;
+    align-items: center;
+    justify-items: end;
+    font-weight: 800px;
+    gap: 50px;
+  }
+  nav li >a{
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    font-weight: 400px;
+    font-size: 20px;
+  }
+  h3{
+    font-weight: 800;
+    font-size: 45px;
+  }
+  .nam{
+    color: #FD6E0A;
+  }
+  .btn{
+    background-color: #FD6E0A;
+    height: 64px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: 0;
+  }
+  .btn1{
+    background-color: #FD6E0A;
+    height: 64px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: 0;
+  }
+  .btn2{
+    background-color: transparent;
+    height: 64px;
+    width: 160px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+  }
+  .sei{
+    background-color: rgb(255,248,243);
+    height: 837px;
+    width: 1509px;
+    background-image: url(image/developer.png),url(image/header_bg.png);
+    background-position: top left,bottom right;
+    background-repeat: no-repeat;
+  }
+  .para{
+    color: rgb(71, 71, 71);
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .mainsec{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 226px;
+    align-items: center;
+  }
+  .text1{
+    color: rgb(71, 71, 71);
+    font-size: 45px;
+    font-weight: 600;
+  }
+  .myname{
+    font-size: 85px;
+    font-weight: 700;
+  }
+  .mypic{
+    height: 686px;
+    width: 602px;
+  }
+  .morebtn{
+    display: flex;
+    gap: 30px;
+  }
