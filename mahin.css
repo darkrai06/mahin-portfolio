@@ -19,6 +19,9 @@
     font-weight: 800px;
     gap: 50px;
   }
+  .majhe p{
+    margin-bottom: 0px;
+  }
   nav li >a{
     text-decoration: none;
     color: rgb(71, 71, 71);
@@ -63,7 +66,7 @@
     border: 1px solid #FD6E0A;
   }
   .sei{
-    background-color: rgb(255,248,243);
+    background-color: #FFF8F3;
     height: 837px;
     width: 1509px;
     background-image: url(image/developer.png),url(image/header_bg.png);
@@ -97,4 +100,48 @@
   .morebtn{
     display: flex;
     gap: 30px;
+  }
+  .boxer{
+    background-color: #FFF8F3;
+    width: 1140px;
+    height: 550px;
+    border-radius: 10px;
+    margin: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .underwear{
+    background-color: white;
+    width: 835px;
+    height: 288px;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  .about{
+    text-align: center;
+    padding: 0px;
+    font-weight: 700;
+    font-size: 35px;
+    color: rgb(24,24,24);
+    line-height: 48px;
+  }
+  .develop{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(117, 117, 117);
+    text-align: center;
+  }
+  .flex{
+    display: flex;
+    justify-content: space-between;
+  }
+  .majhe{
+    text-align: center;
+  }
+  .majhe p{
+    margin-bottom: 0px;
+  }
+  .majhe h4{
+    margin-top: 2px;
   }
