@@ -45,6 +45,17 @@
     color: white;
     border: 0;
   }
+  .btnb{
+    background-color: #FD6E0A;
+    height: 64px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: 0;
+    margin-top: 25px;
+  }
   .btn1{
     background-color: #FD6E0A;
     height: 64px;
@@ -64,6 +75,19 @@
     font-weight: 700;
     color: #FD6E0A;
     border: 1px solid #FD6E0A;
+  }
+  .btnnew{
+    background-color: #FD6E0A;
+    height: 64px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: 0;
+    margin-top: 50px;
+    margin-bottom: 110px;
+    margin-left: 675px;
   }
   .sei{
     background-color: #FFF8F3;
@@ -144,4 +168,157 @@
   }
   .majhe h4{
     margin-top: 2px;
+  }
+  .ido{
+    text-align: center;
+    margin: 345px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .mango{
+    height: 337px;
+    width: 1140px;
+    display: flex;
+    margin-right: 190px;
+    margin-left: 190px;
+    margin-bottom: 190px;
+    justify-content: space-between;
+  }
+  .java{
+    height: 377px;
+    width: 267px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+  }
+  .node{
+    color: rgb(24, 24, 24);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+  }
+  .realme{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+  }
+  .resume{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .sando{
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: left;
+    gap: 100px;
+    padding: 5px;
+  }
+  .noice{
+    width: 511px;
+  }
+  .edu{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .one{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .two{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .three{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .line{
+    width: 558px;
+    height: 0;
+    border: 1px solid rgb(209, 209, 209);
+  }
+  .foot{
+    background-color: #FFF8F3;
+    height: 780px;
+    width: 1509px;
+  }
+  .myfoot{
+    display: flex;
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-top: 130px;
+    gap: 50px;
+    justify-content: left;
+  }
+  .last{
+    width: 560px;
+  }
+  .wow{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+  }
+  .connect{
+    color: rgb(71, 71, 71);
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .image{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  .finish{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .ahh{
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    color: rgb(117, 117, 117);
+    font-weight: 400;
+    font-size: 16px;
+    border: 0;
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .ok{
+    width: 461px;
+    height: 180px;
+    resize: none;
+    background: rgb(255, 255, 255);
+    color: rgb(117, 117, 117);
+    font-weight: 400;
+    font-size: 16px;
+    border: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 18px;
+  }
+  .ok::placeholder{
+    color: rgb(117, 117, 117);
+    font-weight: 400;
+    font-size: 16px;
+
   }
