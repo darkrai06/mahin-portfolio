@@ -15,9 +15,9 @@
             <nav>
                 <h3>Ma<span class="nam">hi</span>n</h3>
                 <ul type="none">
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Blog</a></li>
-                    <button class="btn">Hire Me</button>
+                    <li><a href="https://github.com/darkrai06?tab=repositories" target="_blank">Portfolio</a></li>
+                    <li><a href="https://github.com/darkrai06/mypro" target="_blank">Projects</a></li>
+                    <a href="https://www.linkedin.com/in/md-mojadded-al-mahin-782906326/" target="_blank"><button class="btn">Hire Me</button></a>
                 </ul>
             </nav>
             <section class="mainsec">
@@ -26,8 +26,8 @@
                    <p class="para">I am M M Al Mahin.Currently studying in Islamic University of </br>Technology as an Undergraduate Student in the Department 
                    </br>of Computer Science and Engineering.</p>
                    <section class="morebtn">
-                   <button class="btn1" ><i class="fa-solid fa-download"></i>  Download CV</button>
-                   <button class="btn2"><i class="fa-solid fa-phone"></i>  Contact</button>
+                   <a href="final.pdf" target="_blank" download><button class="btn1" ><i class="fa-solid fa-download"></i>  Download CV</button></a>
+                <a href="#click"><button class="btn2"><i class="fa-solid fa-phone"></i>  Contact</button></a>
                    </section>
                 </section>
                 <section>
@@ -36,7 +36,7 @@
             </section>
 
         </header>
-        <main>
+        <main class="star">
             <section>
                 <div class="boxer">
                     <div class="underwear">
@@ -70,7 +70,7 @@
             </section>
             <div class="ido">
                 <h3 class="what">What I do</h3>
-                <p class="des">I have more than 10 years experience building software for clients all over the world. 
+                <p class="des">I have enough experience building software for clients all over the world. 
                 Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? 
                 Check out my online resume and project portfolio.</p>
             </div>
@@ -132,29 +132,60 @@
                     
                 </div>
             </section>
-            <button class="btnnew"><i class="fa-solid fa-download"></i>  Download CV</button>
+            <a href="final.pdf" target="_blank"><button class="btnnew"><i class="fa-solid fa-download"></i>  Download CV</button></a>
        </main>
-        <footer class="foot">
+        <footer id="click" class="foot">
             <section class="myfoot">
                 <div class="last">
                     <p class="wow">Let's Connect</p>
                     <p class="connect">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
                     <div class="image">
-                        <img src="image/icons/facebook.png" alt="">
-                        <img src="image/icons/twitter.png" alt="">
-                        <img src="image/icons/insta.png" alt="">
+                       <a href="https://www.facebook.com/mahin.otakulimited" target="_blank"> <img src="image/icons/facebook.png" alt=""></a>
+                       <a href="https://github.com/darkrai06" target="_blank">
+                        <i class="fa-brands fa-github" style="color: #FD6E0A; font-size: 25px;"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/md-mojadded-al-mahin-782906326/" target="_blank">
+                        <i class="fa-brands fa-linkedin" style="color: #FD6E0A; font-size: 25px;"></i>
+                    </a>
                     </div>
                 </div>
                 <div class="last">
                     <p class="wow">Message Me</p>
-                    <form action="" class="finish">
-                        <input type="text" placeholder="Your Name" class="ahh">
-                        <input type="email" placeholder="Your Email" class="ahh">
-                        <textarea type="text" placeholder="Message" class="ok"></textarea>
+                    <form action="https://formspree.io/f/xanqrgln" method="POST" class="finish">
+                        <input type="text" name="name" placeholder="Your Name" class="ahh" required>
+                        <input type="email" name="email" placeholder="Your Email" class="ahh" required>
+                        <textarea name="message" placeholder="Message" class="ok" required></textarea>
+                        <button type="submit" class="btnb">Submit</button>
                     </form>
-                    <button class="btnb">Submit</button>
+                    <p id="responseMessage"></p>
+                    
                 </div>
             </section>   
         </footer>
     </body>
+    <script>
+        document.querySelector(".finish").addEventListener("submit", async function(event) {
+            event.preventDefault();
+            
+            const form = this;
+            const formData = new FormData(form);
+        
+            try {
+                let response = await fetch(form.action, {
+                    method: "POST",
+                    body: formData,
+                    headers: { "Accept": "application/json" }
+                });
+        
+                if (response.ok) {
+                    alert("✅ Message sent successfully!");
+                    form.reset();
+                } else {
+                    alert("❌ Failed to send message. Please try again.");
+                }
+            } catch (error) {
+                alert("⚠️ Error: Unable to send message.");
+            }
+        });
+        </script>
 </html>
