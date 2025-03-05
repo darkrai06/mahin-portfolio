@@ -41,6 +41,10 @@
   .nam{
     color: #FD6E0A;
   }
+  .ssc{
+    display: flex;
+    flex-direction: column;
+  }
   .btn{
     background-color: #FD6E0A;
     height: 64px;
